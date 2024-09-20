@@ -19,7 +19,7 @@
   </Component>
   <WorkspaceState>
     <LastBuildConfiguration>Debug</LastBuildConfiguration>
-    <LastBuildGameFileName>DataFile=Spaced,Windows=Spaced,</LastBuildGameFileName>
+    <LastBuildGameFileName>DataFile=Spaced,Windows=Spaced,_Debug=Spaced,</LastBuildGameFileName>
     <RequiresRebuild>False</RequiresRebuild>
   </WorkspaceState>
 </AGSEditorUserData>

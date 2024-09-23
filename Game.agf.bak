@@ -661,7 +661,34 @@
     </Rooms>
     <GUIs>
       <GUIFolder Name="Main">
-        <SubFolders />
+        <SubFolders>
+          <GUIFolder Name="CircuitGUI">
+            <SubFolders />
+            <GUIs>
+              <GUIMain>
+                <NormalGUI>
+                  <BackgroundColor>0</BackgroundColor>
+                  <BackgroundImage>2</BackgroundImage>
+                  <BorderColor>0</BorderColor>
+                  <Clickable>True</Clickable>
+                  <Height>80</Height>
+                  <ID>9</ID>
+                  <Left>100</Left>
+                  <Name>gCircuitDoor</Name>
+                  <OnClick />
+                  <PopupStyle>Normal</PopupStyle>
+                  <PopupYPos>0</PopupYPos>
+                  <Top>50</Top>
+                  <Transparency>0</Transparency>
+                  <Visible>True</Visible>
+                  <Width>125</Width>
+                  <ZOrder>0</ZOrder>
+                </NormalGUI>
+                <Controls />
+              </GUIMain>
+            </GUIs>
+          </GUIFolder>
+        </SubFolders>
         <GUIs>
           <GUIMain>
             <NormalGUI>
@@ -3818,6 +3845,21 @@
                       <OffsetY>0</OffsetY>
                       <ImportHeight>133</ImportHeight>
                       <ImportWidth>223</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="2" Width="125" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\jmoose\Downloads\New Piskel(1)\sprite_0.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>80</ImportHeight>
+                      <ImportWidth>125</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>

@@ -1966,13 +1966,13 @@
               <GUITextWindowEdge>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Height>10</Height>
+                <Height>8</Height>
                 <ID>1</ID>
                 <Image>4</Image>
                 <Left>0</Left>
                 <Locked>False</Locked>
                 <Name />
-                <Top>90</Top>
+                <Top>92</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>8</Width>
@@ -1996,13 +1996,13 @@
               <GUITextWindowEdge>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Height>10</Height>
+                <Height>8</Height>
                 <ID>3</ID>
                 <Image>5</Image>
                 <Left>90</Left>
                 <Locked>False</Locked>
                 <Name />
-                <Top>90</Top>
+                <Top>92</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>8</Width>
@@ -2056,13 +2056,13 @@
               <GUITextWindowEdge>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Height>10</Height>
+                <Height>8</Height>
                 <ID>7</ID>
                 <Image>3</Image>
                 <Left>40</Left>
                 <Locked>False</Locked>
                 <Name />
-                <Top>90</Top>
+                <Top>92</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>8</Width>
@@ -3713,12 +3713,12 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="3" Width="8" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="3" Width="8" Height="8" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>Assets/UI/Textbox/BC.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>10</ImportHeight>
+                      <ImportHeight>8</ImportHeight>
                       <ImportWidth>8</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
@@ -3728,12 +3728,12 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="4" Width="8" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="4" Width="8" Height="8" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>Assets/UI/Textbox/BL.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>10</ImportHeight>
+                      <ImportHeight>8</ImportHeight>
                       <ImportWidth>8</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
@@ -3743,12 +3743,12 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="5" Width="8" Height="10" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="5" Width="8" Height="8" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>Assets/UI/Textbox/BR.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>10</ImportHeight>
+                      <ImportHeight>8</ImportHeight>
                       <ImportWidth>8</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>

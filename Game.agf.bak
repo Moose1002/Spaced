@@ -656,39 +656,16 @@
             <Description IsNull="True" />
             <Number>1</Number>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Description IsNull="True" />
+            <Number>2</Number>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
     <GUIs>
       <GUIFolder Name="Main">
-        <SubFolders>
-          <GUIFolder Name="CircuitGUI">
-            <SubFolders />
-            <GUIs>
-              <GUIMain>
-                <NormalGUI>
-                  <BackgroundColor>0</BackgroundColor>
-                  <BackgroundImage>2</BackgroundImage>
-                  <BorderColor>0</BorderColor>
-                  <Clickable>True</Clickable>
-                  <Height>80</Height>
-                  <ID>9</ID>
-                  <Left>100</Left>
-                  <Name>gCircuitDoor</Name>
-                  <OnClick />
-                  <PopupStyle>Normal</PopupStyle>
-                  <PopupYPos>0</PopupYPos>
-                  <Top>50</Top>
-                  <Transparency>0</Transparency>
-                  <Visible>True</Visible>
-                  <Width>125</Width>
-                  <ZOrder>0</ZOrder>
-                </NormalGUI>
-                <Controls />
-              </GUIMain>
-            </GUIs>
-          </GUIFolder>
-        </SubFolders>
+        <SubFolders />
         <GUIs>
           <GUIMain>
             <NormalGUI>
@@ -2168,13 +2145,13 @@
         <SubFolders />
         <InventoryItems>
           <InventoryItem>
-            <CursorImage>0</CursorImage>
-            <Description xml:space="preserve">New inventory item</Description>
+            <CursorImage>16</CursorImage>
+            <Description>Screwdriver</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <ID>1</ID>
-            <Image>0</Image>
-            <Name>iInvItem1</Name>
+            <Image>16</Image>
+            <Name>iScrewdriver</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
@@ -2421,8 +2398,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>16936</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>160</StartX>
-            <StartY>120</StartY>
+            <StartX>217</StartX>
+            <StartY>172</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -3892,7 +3869,63 @@ return
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="UI">
-                <SubFolders />
+                <SubFolders>
+                  <SpriteFolder Name="Circuits">
+                    <SubFolders>
+                      <SpriteFolder Name="DoorController">
+                        <SubFolders />
+                        <Sprites>
+                          <Sprite Slot="13" Width="26" Height="33" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>Assets/UI/Circuits/DoorCircuitBrokenCap_PLACEHOLDER.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>33</ImportHeight>
+                              <ImportWidth>26</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="12" Width="125" Height="80" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>Assets/UI/Circuits/DoorCircuit_PLACEHOLDER.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>80</ImportHeight>
+                              <ImportWidth>125</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>TopLeft</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="14" Width="26" Height="33" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>Assets/UI/Circuits/DoorCircuitRepairCap_PLACEHOLDER.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>33</ImportHeight>
+                              <ImportWidth>26</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                        </Sprites>
+                      </SpriteFolder>
+                    </SubFolders>
+                    <Sprites />
+                  </SpriteFolder>
+                </SubFolders>
                 <Sprites>
                   <Sprite Slot="2160" Width="71" Height="19" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
@@ -4181,6 +4214,36 @@ return
                       <OffsetY>0</OffsetY>
                       <ImportHeight>76</ImportHeight>
                       <ImportWidth>121</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="15" Width="10" Height="18" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Assets/Backgrounds/PLACEHOLDER-DoorControl-export.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>18</ImportHeight>
+                      <ImportWidth>10</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="16" Width="16" Height="5" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Assets/Backgrounds/PLACEHOLDER-Screwdriver.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>5</ImportHeight>
+                      <ImportWidth>16</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>

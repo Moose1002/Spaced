@@ -1,0 +1,1 @@
+var gamefiles = ['audio.vox', 'Spaced.ags', 'acsetup.cfg'];

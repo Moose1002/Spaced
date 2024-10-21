@@ -155,6 +155,17 @@
         <Name>Repaired</Name>
         <Type>Boolean</Type>
       </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>False</AppliesToObjects>
+        <AppliesToRooms>True</AppliesToRooms>
+        <DefaultValue>1</DefaultValue>
+        <Description />
+        <Name>CircuitPreviousRoom</Name>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
     </PropertyDefinitions>
     <GlobalMessages>
       <Message ID="500" />
@@ -2568,10 +2579,10 @@ return
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>1</HotspotX>
-        <HotspotY>1</HotspotY>
+        <HotspotX>6</HotspotX>
+        <HotspotY>6</HotspotY>
         <ID>1</ID>
-        <Image>2056</Image>
+        <Image>29</Image>
         <Name xml:space="preserve">Look at</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -2594,10 +2605,10 @@ return
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>1</HotspotX>
-        <HotspotY>1</HotspotY>
+        <HotspotX>6</HotspotX>
+        <HotspotY>6</HotspotY>
         <ID>3</ID>
-        <Image>2058</Image>
+        <Image>32</Image>
         <Name xml:space="preserve">Talk to</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -2633,10 +2644,10 @@ return
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>1</HotspotX>
-        <HotspotY>1</HotspotY>
+        <HotspotX>6</HotspotX>
+        <HotspotY>6</HotspotY>
         <ID>6</ID>
-        <Image>2061</Image>
+        <Image>29</Image>
         <Name>Pointer</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
@@ -2677,19 +2688,6 @@ return
         <ID>9</ID>
         <Image>2054</Image>
         <Name>Usermode2</Name>
-        <StandardMode>False</StandardMode>
-        <View>0</View>
-      </MouseCursor>
-      <MouseCursor>
-        <Animate>False</Animate>
-        <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
-        <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
-        <AnimationDelay>5</AnimationDelay>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
-        <ID>10</ID>
-        <Image>18</Image>
-        <Name>Door</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
       </MouseCursor>
@@ -4571,6 +4569,21 @@ return
                       <OffsetY>0</OffsetY>
                       <ImportHeight>18</ImportHeight>
                       <ImportWidth>10</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="37" Width="34" Height="44" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>Assets/Backgrounds/PLACEHOLDER-Breakerbox.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>44</ImportHeight>
+                      <ImportWidth>34</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>False</RemapToGamePalette>

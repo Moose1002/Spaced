@@ -5,4 +5,4 @@
 
 import function AddInventoryHelper(Object *pickup, InventoryItem *invItem);
 
-import function EnterCircuitEditor(int roomID);
+import function EnterCircuitEditor(String circuitID);

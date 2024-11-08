@@ -146,10 +146,10 @@
     <PropertyDefinitions>
       <CustomPropertySchemaItem>
         <AppliesToCharacters>False</AppliesToCharacters>
-        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToHotspots>True</AppliesToHotspots>
         <AppliesToInvItems>False</AppliesToInvItems>
-        <AppliesToObjects>False</AppliesToObjects>
-        <AppliesToRooms>True</AppliesToRooms>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
         <DefaultValue />
         <Description />
         <Name>CircuitID</Name>
@@ -4841,6 +4841,30 @@ return
       <ScriptFolder Name="Main">
         <SubFolders />
         <ScriptAndHeaders>
+          <ScriptAndHeader>
+            <ScriptAndHeader_Header>
+              <Script>
+                <FileName>CircuitManager.ash</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>172962978</Key>
+                <IsHeader>True</IsHeader>
+              </Script>
+            </ScriptAndHeader_Header>
+            <ScriptAndHeader_Script>
+              <Script>
+                <FileName>CircuitManager.asc</FileName>
+                <Name />
+                <Description />
+                <Author />
+                <Version />
+                <Key>172962978</Key>
+                <IsHeader>False</IsHeader>
+              </Script>
+            </ScriptAndHeader_Script>
+          </ScriptAndHeader>
           <ScriptAndHeader>
             <ScriptAndHeader_Header>
               <Script>

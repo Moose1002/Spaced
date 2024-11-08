@@ -4,5 +4,3 @@
 // scripts.
 
 import function AddInventoryHelper(Object *pickup, InventoryItem *invItem);
-
-import function EnterCircuitEditor(String circuitID);

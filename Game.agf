@@ -177,6 +177,28 @@
         <Name>DoorLocked</Name>
         <Type>Boolean</Type>
       </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <DefaultValue>-1</DefaultValue>
+        <Description xml:space="preserve">The object ID that this connection point should connect to.</Description>
+        <Name>ConnectionPoint</Name>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
+      <CustomPropertySchemaItem>
+        <AppliesToCharacters>False</AppliesToCharacters>
+        <AppliesToHotspots>False</AppliesToHotspots>
+        <AppliesToInvItems>False</AppliesToInvItems>
+        <AppliesToObjects>True</AppliesToObjects>
+        <AppliesToRooms>False</AppliesToRooms>
+        <DefaultValue>-1</DefaultValue>
+        <Description xml:space="preserve">The object ID to show when a connection has been made.</Description>
+        <Name>ConnectionResult</Name>
+        <Type>Number</Type>
+      </CustomPropertySchemaItem>
     </PropertyDefinitions>
     <GlobalMessages>
       <Message ID="500" />

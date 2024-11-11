@@ -1,7 +1,7 @@
 Game : (room:1) Dialog: all options have been turned off, stopping dialog.
 Script : Loading Circuit with ID:
 Script : DoorController
-Script : 12
+Script : 14
 Script : Broken Capacitor
 Script : 
 Script : 
@@ -14,9 +14,11 @@ Script : Negative Terminal
 Script : 
 Script : 
 Script : Fuse
+Script : Positive Wire
+Script : Negative Wire
 Script : Loading Circuit with ID:
 Script : BreakerBox
-Script : 12
+Script : 14
 Script : Capacitor
 Script : 
 Script : 
@@ -29,9 +31,11 @@ Script : Negative Terminal
 Script : 
 Script : 
 Script : Fuse
+Script : Positive Wire
+Script : Negative Wire
 Script : Loading Circuit with ID:
 Script : FloodLight
-Script : 12
+Script : 14
 Script : Capacitor
 Script : 
 Script : 
@@ -44,33 +48,5 @@ Script : Negative Terminal
 Script : 
 Script : 
 Script : Fuse
-Script : Loading Circuit with ID:
-Script : FloodLight
-Script : 12
-Script : Capacitor
-Script : 
-Script : 
-Script : Door Controller Circuit
-Script : Indicator Light
-Script : 12v Battery
-Script : FloodLight
-Script : Positive Terminal
-Script : Negative Terminal
-Script : 
-Script : 
-Script : Fuse
-Script : Loading Circuit with ID:
-Script : FloodLight
-Script : 12
-Script : Capacitor
-Script : 
-Script : 
-Script : Door Controller Circuit
-Script : Indicator Light
-Script : 12v Battery
-Script : FloodLight
-Script : Positive Terminal
-Script : Negative Terminal
-Script : 
-Script : 
-Script : Fuse
+Script : Positive Wire
+Script : Negative Wire

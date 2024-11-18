@@ -1748,8 +1748,8 @@
           <InventoryItem>
             <CursorImage>43</CursorImage>
             <Description>Fuse</Description>
-            <HotspotX>61</HotspotX>
-            <HotspotY>11</HotspotY>
+            <HotspotX>16</HotspotX>
+            <HotspotY>3</HotspotY>
             <ID>3</ID>
             <Image>43</Image>
             <Name>iFuse</Name>
@@ -2585,6 +2585,11 @@ return
           <Name>FuseObtained</Name>
           <Type>bool</Type>
         </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>false</DefaultValue>
+          <Name>FuseReplaced</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -2744,13 +2749,13 @@ return
                       <SpriteFolder Name="BreakerBox">
                         <SubFolders />
                         <Sprites>
-                          <Sprite Slot="41" Width="202" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                          <Sprite Slot="41" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                             <Source>
-                              <FileName>Assets/UI/Circuits/PLACEHOLDER-BreakerBox.png</FileName>
+                              <FileName>Assets/UI/Circuits/BreakerBox.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
                               <ImportHeight>200</ImportHeight>
-                              <ImportWidth>202</ImportWidth>
+                              <ImportWidth>320</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -2759,13 +2764,13 @@ return
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="42" Width="122" Height="21" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                          <Sprite Slot="42" Width="32" Height="7" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                             <Source>
-                              <FileName>Assets/UI/Circuits/PLACEHOLDER-Fuse.png</FileName>
+                              <FileName>Assets/UI/Circuits/FuseBlown.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>21</ImportHeight>
-                              <ImportWidth>122</ImportWidth>
+                              <ImportHeight>7</ImportHeight>
+                              <ImportWidth>32</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>
@@ -2774,13 +2779,148 @@ return
                               <ImportAlphaChannel>True</ImportAlphaChannel>
                             </Source>
                           </Sprite>
-                          <Sprite Slot="43" Width="122" Height="21" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                          <Sprite Slot="43" Width="32" Height="7" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                             <Source>
-                              <FileName>Assets/UI/Circuits/PLACEHOLDER-FuseNew.png</FileName>
+                              <FileName>Assets/UI/Circuits/Fuse.png</FileName>
                               <OffsetX>0</OffsetX>
                               <OffsetY>0</OffsetY>
-                              <ImportHeight>21</ImportHeight>
-                              <ImportWidth>122</ImportWidth>
+                              <ImportHeight>7</ImportHeight>
+                              <ImportWidth>32</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="73" Width="50" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>Assets/UI/Circuits/MainBreakerOff.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>25</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="74" Width="50" Height="25" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>Assets/UI/Circuits/MainBreakerOn.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>25</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="75" Width="50" Height="17" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>Assets/UI/Circuits/BreakerOffL.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>17</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="76" Width="50" Height="17" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>Assets/UI/Circuits/BreakerOnR.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>17</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="77" Width="50" Height="17" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>Assets/UI/Circuits/BreakerOffR.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>17</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="78" Width="50" Height="17" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>Assets/UI/Circuits/BreakerOnL.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>17</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="79" Width="50" Height="17" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>Assets/UI/Circuits/FuseHolderOff.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>17</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="80" Width="50" Height="17" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>Assets/UI/Circuits/FuseHolderOn.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>17</ImportHeight>
+                              <ImportWidth>50</ImportWidth>
+                              <ImportAsTile>False</ImportAsTile>
+                              <Frame>0</Frame>
+                              <RemapToGamePalette>False</RemapToGamePalette>
+                              <RemapToRoomPalette>False</RemapToRoomPalette>
+                              <ImportMethod>LeaveAsIs</ImportMethod>
+                              <ImportAlphaChannel>True</ImportAlphaChannel>
+                            </Source>
+                          </Sprite>
+                          <Sprite Slot="81" Width="320" Height="200" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                            <Source>
+                              <FileName>Assets/UI/Circuits/BrokenBreakerBox.png</FileName>
+                              <OffsetX>0</OffsetX>
+                              <OffsetY>0</OffsetY>
+                              <ImportHeight>200</ImportHeight>
+                              <ImportWidth>320</ImportWidth>
                               <ImportAsTile>False</ImportAsTile>
                               <Frame>0</Frame>
                               <RemapToGamePalette>False</RemapToGamePalette>

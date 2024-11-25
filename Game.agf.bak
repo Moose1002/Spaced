@@ -3793,12 +3793,12 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="37" Width="34" Height="44" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="37" Width="34" Height="46" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>Assets/Backgrounds/PLACEHOLDER-Breakerbox.png</FileName>
+                      <FileName>Assets/Objects/Breakerbox.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>44</ImportHeight>
+                      <ImportHeight>46</ImportHeight>
                       <ImportWidth>34</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
@@ -3808,12 +3808,12 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="38" Width="60" Height="113" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="38" Width="60" Height="117" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>Assets/Backgrounds/PLACEHOLDER-Door1.png</FileName>
+                      <FileName>Assets/Backgrounds/Door1.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>113</ImportHeight>
+                      <ImportHeight>117</ImportHeight>
                       <ImportWidth>60</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
@@ -3823,12 +3823,12 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="39" Width="60" Height="113" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="39" Width="60" Height="117" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
-                      <FileName>Assets/Backgrounds/PLACEHOLDER-Door2.png</FileName>
+                      <FileName>Assets/Backgrounds/Door2.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>113</ImportHeight>
+                      <ImportHeight>117</ImportHeight>
                       <ImportWidth>60</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>

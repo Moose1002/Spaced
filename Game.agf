@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>2</AudioIndexer>
+      <AudioIndexer>4</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets xml:space="preserve">Windows, Web</BuildTargets>
@@ -2060,7 +2060,7 @@
           <Character>
             <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
             <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-            <AnimationDelay>4</AnimationDelay>
+            <AnimationDelay>5</AnimationDelay>
             <BlinkingView>0</BlinkingView>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
@@ -2111,7 +2111,7 @@
             <IdleDelay>20</IdleDelay>
             <IdleView>0</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeed>5</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>4</NormalView>
@@ -2248,6 +2248,8 @@ comm: Over.
     cArin.Say("I guess my shadow friend will have to stay here.");
     cArin.Say("Poor guy...");
     FadeOut(1);
+    cArin.LockView(3);
+    cArin.ChangeRoom(6);
     return RUN_DIALOG_STOP_DIALOG;
   }
 return
@@ -2263,6 +2265,8 @@ comm: Over.
     cArin.Say("I guess my shadow friend will have to stay here.");
     cArin.Say("Poor guy...");
     FadeOut(1);
+    cArin.LockView(3);
+    cArin.ChangeRoom(6);
     return RUN_DIALOG_STOP_DIALOG;
   }
 return
@@ -2279,6 +2283,8 @@ comm: Over.
     cArin.Say("I guess my shadow friend will have to stay here.");
     cArin.Say("Poor guy...");
     FadeOut(1);
+    cArin.LockView(3);
+    cArin.ChangeRoom(6);
     return RUN_DIALOG_STOP_DIALOG;
   }
 return
@@ -3944,7 +3950,7 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="38" Width="60" Height="117" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="38" Width="60" Height="125" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>Assets/Backgrounds/Door1.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -3959,7 +3965,7 @@ return
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
-                  <Sprite Slot="39" Width="60" Height="117" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                  <Sprite Slot="39" Width="60" Height="125" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>Assets/Backgrounds/Door2.png</FileName>
                       <OffsetX>0</OffsetX>
@@ -4901,7 +4907,7 @@ return
                     <Flipped>False</Flipped>
                     <ID>2</ID>
                     <Image>23</Image>
-                    <Sound>0</Sound>
+                    <Sound>3</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
@@ -4942,7 +4948,7 @@ return
                     <Flipped>False</Flipped>
                     <ID>2</ID>
                     <Image>23</Image>
-                    <Sound>0</Sound>
+                    <Sound>3</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
@@ -4983,7 +4989,7 @@ return
                     <Flipped>True</Flipped>
                     <ID>2</ID>
                     <Image>23</Image>
-                    <Sound>0</Sound>
+                    <Sound>3</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
@@ -5024,7 +5030,7 @@ return
                     <Flipped>False</Flipped>
                     <ID>2</ID>
                     <Image>23</Image>
-                    <Sound>0</Sound>
+                    <Sound>3</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
@@ -5065,7 +5071,7 @@ return
                     <Flipped>True</Flipped>
                     <ID>2</ID>
                     <Image>23</Image>
-                    <Sound>0</Sound>
+                    <Sound>3</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
@@ -5106,7 +5112,7 @@ return
                     <Flipped>True</Flipped>
                     <ID>2</ID>
                     <Image>23</Image>
-                    <Sound>0</Sound>
+                    <Sound>3</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
@@ -5147,7 +5153,7 @@ return
                     <Flipped>False</Flipped>
                     <ID>2</ID>
                     <Image>23</Image>
-                    <Sound>0</Sound>
+                    <Sound>3</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
@@ -5188,7 +5194,7 @@ return
                     <Flipped>False</Flipped>
                     <ID>2</ID>
                     <Image>23</Image>
-                    <Sound>0</Sound>
+                    <Sound>3</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
@@ -5744,6 +5750,51 @@ return
               </Loop>
             </Loops>
           </View>
+          <View>
+            <ID>9</ID>
+            <Name>PlayerSalvage</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>0</ID>
+                    <Image>86</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>1</ID>
+                    <Image>87</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>10</ID>
+            <Name>PlayerSalvageDown</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>0</ID>
+                    <Image>87</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
         </Views>
       </ViewFolder>
     </Views>
@@ -5924,6 +5975,32 @@ See KeyboardMovement.txt for details.
                 <SourceFileName>Assets/Audio/Pickup.wav</SourceFileName>
                 <Type>3</Type>
                 <FileLastModifiedDate>2024-10-04 17:35:04Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>30</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>2</ID>
+                <Index>3</Index>
+                <ScriptName>aStep2</ScriptName>
+                <SourceFileName>C:\Users\jacob\Downloads\step2.mp3</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-11-29 00:40:27Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>3</ID>
+                <Index>4</Index>
+                <ScriptName>aStep1</ScriptName>
+                <SourceFileName>C:\Users\jacob\Downloads\step1.mp3</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2024-11-29 00:40:09Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>

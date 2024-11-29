@@ -2,12 +2,12 @@ Game : (room:1) Dialog: all options have been turned off, stopping dialog.
 Script : Loading Circuit with ID:
 Script : DoorController
 Script : Loading Circuit with ID:
+Script : BreakerBox
+Script : Loading Circuit with ID:
+Script : FloodLight
+Script : Loading Circuit with ID:
 Script : FloodLight
 Script : Loading Circuit with ID:
 Script : BrokenBreakerbox
 Script : Loading Circuit with ID:
 Script : BreakerBox
-Game : (room:4)[D 3] Warning: blocking Say call during fade-out.
-Game : (room:4)[D 4] Warning: blocking Say call during fade-out.
-Game : (room:4)[D 5] Warning: blocking Say call during fade-out.
-Game : (room:4)[D 6] Warning: blocking Say call during fade-out.
